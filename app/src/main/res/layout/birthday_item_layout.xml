@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="69dp"
+        android:layout_height="68.3dp"
+        android:src="@drawable/image_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="6dp"
+        app:cardElevation="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="28.5dp"
+        android:layout_width="259dp"
+        android:layout_height="94.04dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26.58dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_confetti_view"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />.
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pipe"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/names"
+                android:layout_marginTop="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abimbola"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 30:30:3030"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/names"
+                android:drawableStart="@drawable/ic_cake"/>
+
+            <TextView
+                android:id="@+id/days_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 30 Days left"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/birthday"
+                android:drawableStart="@drawable/ic_calendar"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
