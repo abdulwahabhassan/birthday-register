@@ -5,4 +5,6 @@
     <string name="home_text">Home</string>
     <string name="people_text">People</string>
     <string name="gifts_text">Gifts</string>
+    <string name="notification_text">Notification bell</string>
+    <string name="upcoming_birthdays_text">Upcoming Birthdays</string>
 </resources>

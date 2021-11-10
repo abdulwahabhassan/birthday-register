@@ -8,7 +8,7 @@
         android:id="@+id/image"
         android:layout_width="69dp"
         android:layout_height="68.3dp"
-        android:src="@drawable/image_one"
+        android:src="@drawable/celebrant_two"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

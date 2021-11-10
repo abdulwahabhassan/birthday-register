@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#B99FD6</color>
+    <color name="grey">#F4F4F4</color>
+    <color name="pink">#F72585</color>
+    <color name="maroun">#B5179E</color>
+    <color name="cyan">#4CC9F0</color>
+    <color name="yellow">#FFBF00</color>
 </resources>
