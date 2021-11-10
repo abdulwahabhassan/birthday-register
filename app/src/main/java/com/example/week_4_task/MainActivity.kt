@@ -20,9 +20,6 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        //set toolbar as action bar
-
-
         //find the nav controller associated with the navHost contained within this activity
         navController = findNavController(R.id.fragment_container_view)
 

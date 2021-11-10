@@ -13,7 +13,7 @@ import com.example.week_4_task.databinding.FragmentHomeBinding
 
 class AnnouncementFragment(
     private val celebrantName: String,
-    val celebrantPhoto: Int
+    private val celebrantPhoto: Int
 ) : Fragment() {
 
     private var _binding: FragmentAnnouncementBinding? = null
